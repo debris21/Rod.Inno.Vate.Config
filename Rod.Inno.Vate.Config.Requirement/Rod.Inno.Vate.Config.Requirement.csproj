@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rod.Inno.Vate.Config.Service.Access.Interface\Rod.Inno.Vate.Config.Service.Access.Interface.csproj" />
+    <ProjectReference Include="..\Rod.Inno.Vate.Config.Service.Model\Rod.Inno.Vate.Config.Service.Model.csproj" />
+  </ItemGroup>
+
+</Project>

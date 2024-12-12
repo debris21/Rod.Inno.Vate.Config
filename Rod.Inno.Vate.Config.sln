@@ -3,7 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rod.Inno.Vate.Config", "Rod.Inno.Vate.Config\Rod.Inno.Vate.Config.csproj", "{799609E3-DB19-49F8-B682-3547E93FC245}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rod.Inno.Vate.Config", "Rod.Inno.Vate.Config\Rod.Inno.Vate.Config.csproj", "{799609E3-DB19-49F8-B682-3547E93FC245}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{6F5651C6-A3A7-4922-AF91-555D18267F33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Shell", ".Shell", "{82F6CB45-69B9-4C10-8267-BA1D1B525CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rod.Inno.Vate.Config.Api", "Rod.Inno.Vate.Config.Api\Rod.Inno.Vate.Config.Api.csproj", "{F85AA819-5D6E-4E87-AF20-DD8CCEBE8DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rod.Inno.Vate.Config.Requirement", "Rod.Inno.Vate.Config.Requirement\Rod.Inno.Vate.Config.Requirement.csproj", "{E58E0345-3F94-4420-A22D-DC61D01EA24C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rod.Inno.Vate.Config.Requirement.Interface", "Rod.Inno.Vate.Config.Requirement.Interface\Rod.Inno.Vate.Config.Requirement.Interface.csproj", "{59FB1B62-6734-4138-A599-8EA056328F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rod.Inno.Vate.Config.Service.Access", "Rod.Inno.Vate.Config.Service.Access\Rod.Inno.Vate.Config.Service.Access.csproj", "{D944684E-135A-472F-ABEE-0A4EA17B282F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rod.Inno.Vate.Config.Service.Access.Interface", "Rod.Inno.Vate.Config.Service.Access.Interface\Rod.Inno.Vate.Config.Service.Access.Interface.csproj", "{93258557-2F0E-4D8B-B860-56E35AC1E9BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rod.Inno.Vate.Config.Service.Model", "Rod.Inno.Vate.Config.Service.Model\Rod.Inno.Vate.Config.Service.Model.csproj", "{7C0D8955-3419-45AF-BF51-C2CB8D62A958}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +31,42 @@ Global
 		{799609E3-DB19-49F8-B682-3547E93FC245}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{799609E3-DB19-49F8-B682-3547E93FC245}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{799609E3-DB19-49F8-B682-3547E93FC245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85AA819-5D6E-4E87-AF20-DD8CCEBE8DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85AA819-5D6E-4E87-AF20-DD8CCEBE8DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85AA819-5D6E-4E87-AF20-DD8CCEBE8DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85AA819-5D6E-4E87-AF20-DD8CCEBE8DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E58E0345-3F94-4420-A22D-DC61D01EA24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58E0345-3F94-4420-A22D-DC61D01EA24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58E0345-3F94-4420-A22D-DC61D01EA24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58E0345-3F94-4420-A22D-DC61D01EA24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59FB1B62-6734-4138-A599-8EA056328F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FB1B62-6734-4138-A599-8EA056328F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FB1B62-6734-4138-A599-8EA056328F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FB1B62-6734-4138-A599-8EA056328F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D944684E-135A-472F-ABEE-0A4EA17B282F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D944684E-135A-472F-ABEE-0A4EA17B282F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D944684E-135A-472F-ABEE-0A4EA17B282F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D944684E-135A-472F-ABEE-0A4EA17B282F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93258557-2F0E-4D8B-B860-56E35AC1E9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93258557-2F0E-4D8B-B860-56E35AC1E9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93258557-2F0E-4D8B-B860-56E35AC1E9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93258557-2F0E-4D8B-B860-56E35AC1E9BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0D8955-3419-45AF-BF51-C2CB8D62A958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0D8955-3419-45AF-BF51-C2CB8D62A958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0D8955-3419-45AF-BF51-C2CB8D62A958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0D8955-3419-45AF-BF51-C2CB8D62A958}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{799609E3-DB19-49F8-B682-3547E93FC245} = {82F6CB45-69B9-4C10-8267-BA1D1B525CBE}
+		{F85AA819-5D6E-4E87-AF20-DD8CCEBE8DAD} = {6F5651C6-A3A7-4922-AF91-555D18267F33}
+		{E58E0345-3F94-4420-A22D-DC61D01EA24C} = {6F5651C6-A3A7-4922-AF91-555D18267F33}
+		{59FB1B62-6734-4138-A599-8EA056328F73} = {6F5651C6-A3A7-4922-AF91-555D18267F33}
+		{D944684E-135A-472F-ABEE-0A4EA17B282F} = {6F5651C6-A3A7-4922-AF91-555D18267F33}
+		{93258557-2F0E-4D8B-B860-56E35AC1E9BA} = {6F5651C6-A3A7-4922-AF91-555D18267F33}
+		{7C0D8955-3419-45AF-BF51-C2CB8D62A958} = {6F5651C6-A3A7-4922-AF91-555D18267F33}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E3DF6BE-4993-4BBB-B8EF-3CC7FEC4C1B5}

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -11,6 +11,19 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rod.Inno.Vate.Config.Api\Rod.Inno.Vate.Config.Api.csproj" />
+    <ProjectReference Include="..\Rod.Inno.Vate.Config.Requirement.Interface\Rod.Inno.Vate.Config.Requirement.Interface.csproj" />
+    <ProjectReference Include="..\Rod.Inno.Vate.Config.Requirement\Rod.Inno.Vate.Config.Requirement.csproj" />
+    <ProjectReference Include="..\Rod.Inno.Vate.Config.Service.Access.Interface\Rod.Inno.Vate.Config.Service.Access.Interface.csproj" />
+    <ProjectReference Include="..\Rod.Inno.Vate.Config.Service.Access\Rod.Inno.Vate.Config.Service.Access.csproj" />
+    <ProjectReference Include="..\Rod.Inno.Vate.Config.Service.Model\Rod.Inno.Vate.Config.Service.Model.csproj" />
   </ItemGroup>
 
 </Project>
