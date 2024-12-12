@@ -1,0 +1,6 @@
+@Rod.Inno.Vate.Config_HostAddress = http://localhost:5137
+
+GET {{Rod.Inno.Vate.Config_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
